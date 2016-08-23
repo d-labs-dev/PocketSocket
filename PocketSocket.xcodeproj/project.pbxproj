@@ -58,6 +58,14 @@
 		B35A4A6C1D6C78E200A2FF2D /* PocketSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = B35A4A481D6C71CC00A2FF2D /* PocketSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B35A4A6D1D6C790200A2FF2D /* PSWebSocketInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE5E33E18B37DEC00BAE47A /* PSWebSocketInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B35A4A6E1D6C792800A2FF2D /* PocketSocket-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = EEE5E31118B37DD500BAE47A /* PocketSocket-Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
+		B35A4A6F1D6C796E00A2FF2D /* PSWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E35218B37DF300BAE47A /* PSWebSocket.m */; };
+		B35A4A701D6C797000A2FF2D /* PSWebSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2A05DA18B5BBEC0066EEA4 /* PSWebSocketServer.m */; };
+		B35A4A711D6C797300A2FF2D /* PSWebSocketDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E33418B37DEC00BAE47A /* PSWebSocketDriver.m */; };
+		B35A4A721D6C797800A2FF2D /* PSWebSocketBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E33818B37DEC00BAE47A /* PSWebSocketBuffer.m */; };
+		B35A4A731D6C797B00A2FF2D /* PSWebSocketInflater.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E33A18B37DEC00BAE47A /* PSWebSocketInflater.m */; };
+		B35A4A741D6C797D00A2FF2D /* PSWebSocketDeflater.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E33C18B37DEC00BAE47A /* PSWebSocketDeflater.m */; };
+		B35A4A751D6C798100A2FF2D /* PSWebSocketNetworkThread.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E34018B37DEC00BAE47A /* PSWebSocketNetworkThread.m */; };
+		B35A4A761D6C798400A2FF2D /* PSWebSocketUTF8Decoder.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E34218B37DEC00BAE47A /* PSWebSocketUTF8Decoder.m */; };
 		EE2A05DB18B5BBEC0066EEA4 /* PSWebSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2A05DA18B5BBEC0066EEA4 /* PSWebSocketServer.m */; };
 		EE337EC318B4AE1F003F95B9 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE5E38418B385DE00BAE47A /* libz.dylib */; };
 		EE337EC418B4AE23003F95B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE5E30D18B37DD500BAE47A /* Foundation.framework */; };
@@ -667,6 +675,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B35A4A751D6C798100A2FF2D /* PSWebSocketNetworkThread.m in Sources */,
+				B35A4A6F1D6C796E00A2FF2D /* PSWebSocket.m in Sources */,
+				B35A4A761D6C798400A2FF2D /* PSWebSocketUTF8Decoder.m in Sources */,
+				B35A4A731D6C797B00A2FF2D /* PSWebSocketInflater.m in Sources */,
+				B35A4A711D6C797300A2FF2D /* PSWebSocketDriver.m in Sources */,
+				B35A4A721D6C797800A2FF2D /* PSWebSocketBuffer.m in Sources */,
+				B35A4A701D6C797000A2FF2D /* PSWebSocketServer.m in Sources */,
+				B35A4A741D6C797D00A2FF2D /* PSWebSocketDeflater.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
