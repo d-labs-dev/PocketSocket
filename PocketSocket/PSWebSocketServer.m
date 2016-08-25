@@ -143,10 +143,19 @@ void PSWebSocketServerAcceptCallback(CFSocketRef s, CFSocketCallBackType type, C
         [self connect:NO];
     }];
 }
+
+- (void)startSynchronously {
+    [self connect:NO];
+}
+
 - (void)stop {
     [self executeWork:^{
         [self disconnectGracefully:NO];
     }];
+}
+
+- (void)stopSynchronously {
+    [self disconnectGracefully:NO];
 }
 
 #pragma mark - Connection
