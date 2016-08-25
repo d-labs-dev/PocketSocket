@@ -52,6 +52,8 @@
 #pragma mark - Actions
 
 - (void)start;
+- (void)startSynchronously;
 - (void)stop;
+- (void)stopSynchronously;
 
 @end
